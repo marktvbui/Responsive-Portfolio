@@ -202,17 +202,36 @@ input[type=submit] {
 }
 @media only screen and (min-width: 640px) {
   .sidebar {
-    width: 100%;
-    min-width: 640px;
+    min-width: 100%;
+  }
+  .main-section {
+    margin-right: auto;
+    margin-left: auto;
+    float: inherit;
+    width: 85%;
   }
 }
 @media only screen and (min-width: 768px) {
   .sidebar {
-    width: 100%;
-    min-width: 768px;
+    min-width: 100%;
+  }
+  .main-section {
+    margin-right: auto;
+    margin-left: auto;
+    float: inherit;
+    width: 85%;
+  }
+  footer {
+    margin-bottom: 10px;
   }
 
 }
 @media only screen and (min-width: 980px) {
+  .sidebar {
+    min-width: 100%;
+  }
+  footer {
+    margin-bottom: 10px;
+  }
 
 }
