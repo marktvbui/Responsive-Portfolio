@@ -203,12 +203,28 @@ input[type=submit] {
 @media only screen and (min-width: 640px) {
   .sidebar {
     min-width: 100%;
+    margin-right: 20px
   }
   .main-section {
     margin-right: auto;
     margin-left: auto;
     float: inherit;
     width: 85%;
+  }
+  .work {
+    width: 98%;
+    float: inherit;
+  }
+  #logo {
+    width: 100%;
+  }
+  nav {
+    float: inherit;
+    text-align: center;
+    padding: 10px;
+  }
+  #main-container {
+    padding-top: 200px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -224,7 +240,17 @@ input[type=submit] {
   footer {
     margin-bottom: 10px;
   }
-
+  #logo {
+    width: 100%;
+  }
+   nav {
+    float: inherit;
+    text-align: center;
+    padding: 10px;
+  }
+  #main-container {
+    padding-top: 200px;
+  }
 }
 @media only screen and (min-width: 980px) {
   .sidebar {
