@@ -112,7 +112,6 @@ h3,
 .social {
   width: 62px;
   height: 62px;
-  margin-top: 8px;
   margin-right: 5px;
 }
 .social:last-child {
@@ -200,7 +199,7 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-@media only screen and (min-width: 640px) {
+@media only screen and (max-width: 640px) {
   .sidebar {
     max-width: 250px;
     margin-right: 20px
@@ -227,7 +226,7 @@ input[type=submit] {
     padding-top: 200px;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .sidebar {
     min-width: 100%;
   }
@@ -252,9 +251,15 @@ input[type=submit] {
     padding-top: 200px;
   }
 }
-@media only screen and (min-width: 980px) {
+@media only screen and (max-width: 980px) {
   .sidebar {
     min-width: 100%;
+  }
+  .main-section {
+    margin-right: auto;
+    margin-left: auto;
+    float: inherit;
+    width: 85%;
   }
   footer {
     margin-bottom: 10px;
